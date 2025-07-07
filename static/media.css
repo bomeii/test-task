@@ -296,11 +296,18 @@
     .slide-img-bg hr{
         margin-right: 0 !important;
     }
-}
-@media (max-width: 350px) {
     .first-type button, .second-type button {
         width: 290px !important;
     }
+    .swiper-button-prev, .swiper-button-next{
+        width: 40px !important;
+    }
+    .slide-img-bg{
+        top: 220px;
+        padding-right: 20px;
+    }
+}
+@media (max-width: 350px) {
     header .container{
         left: 5px !important;
     }
