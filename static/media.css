@@ -1,0 +1,307 @@
+@media (max-width: 1500px) {
+    .swiper-button-prev, .swiper-button-next{
+        width: 60px !important;
+    }
+}
+@media (max-width: 1300px) {
+    .container{
+        width: 1000px !important;
+    }
+    .nav nav ul{
+        gap: 20px;
+    }
+    .slide-right .slide-img{
+        width: 400px !important;
+        height: auto !important;
+    }
+    .slide-img-bg{
+        width: 400px !important;
+        height: 300px;
+    }
+    .info-home{
+        width: 1000px !important;
+    }
+    .card-home{
+        gap: 40px;
+    }
+    .text-home-text{
+        width: 450px !important;
+    }
+    .options-cards{
+        justify-content: center;
+    }
+    .first-type button, .second-type button{
+        width: 400px !important;
+    }
+}
+@media (max-width: 1100px) {
+    .container, .info-home{
+        width: 950px !important;
+    }
+    .type-flat{
+        flex-direction: column-reverse;
+    }
+    .first-type button, .second-type button{
+        width: 500px !important;
+    }
+}
+@media (max-width: 1079px) {
+    .slide-container{
+        flex-direction: column-reverse;
+    }
+    .slide-left-title{
+        font-size: 46px;
+    }
+    .slide-left{
+        height: 10vh;
+        margin-top: 15vh;
+    }
+    .slide-img-bg{
+        top: 260px;
+    }
+    .slide-right{
+        margin-top: 0;
+    }
+}
+@media (max-width: 1024px) {
+    .burger-menu {
+        display: flex;
+    }
+
+    .nav {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        height: 100vh;
+        background-color: var(--card);
+        padding: 80px 0 20px;
+        transition: right 0.3s ease;
+        z-index: 999;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        display: none;
+    }
+
+    .nav.active {
+        right: 0;
+        display: block;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .header-contacts {
+        position: static;
+        flex-direction: column;
+    }
+    .info-home{
+        flex-direction: column;
+    }
+}
+@media (max-width: 1000px) {
+    .container, .info-home{
+        width: 850px !important;
+    }
+    .nav nav ul{
+        gap: 10px;
+    }
+    .card-home{
+        gap: 0;
+        row-gap: 20px;
+    }
+}
+@media (max-width: 900px) {
+    .container, .info-home{
+        width: 750px !important;
+    }
+    .card-home{
+        gap: 20px;
+        justify-content: center;
+        row-gap: 20px;
+    }
+}
+@media (max-width: 800px) {
+    .container, .info-home{
+        width: 650px !important;
+    }
+    .card-home{
+        gap: 20px;
+        justify-content: center;
+        row-gap: 20px;
+    }
+}
+@media (max-width: 700px) {
+    .container, .info-home{
+        width: 550px !important;
+    }
+    .card{
+        width: 200px !important;
+        height: 200px !important;
+    }
+    .card-z3{
+        width: 150px !important;
+        height: 206px !important;
+        left: 20px;
+    }
+    .card-z2{
+        height: 150px !important;
+        width: 206px !important;
+        top: 20px;
+    }
+    .card-home{
+        gap: 20px;
+        justify-content: center;
+        row-gap: 20px;
+    }
+    .options-cards .card .info-card p:nth-child(1){
+        font-size: 14px !important;
+    }
+    .options-cards .card .info-card p:nth-child(2){
+        font-size: 12px !important;
+        width: 100px !important;
+    }
+    .options-cards .card .info-card{
+        padding: 10px !important;
+    }
+    .phone-card .info-card{
+        justify-content: start !important;
+    }
+}
+@media (max-width: 600px) {
+    .container, .info-home{
+        width: 450px !important;
+    }
+    .card-home{
+        gap: 20px;
+        justify-content: center;
+        row-gap: 20px;
+    }
+    .padding{
+        padding: 20px 5px !important;
+    }
+    .type-flat-left-title{
+        margin-top: 20px;
+    }
+    h2{
+        font-size: 46px !important;
+    }
+    .type-flat-left-title p{
+        font-size: 14px !important;
+    }
+     .map-flat img, .map-right{
+        height: 400px !important;
+    }
+    .map-flat-full img{
+
+    }
+}
+@media (max-width: 500px) {
+    .card-home{
+        gap: 20px;
+        justify-content: center;
+        row-gap: 20px;
+        margin-top: 120px;
+    }
+    .header-contacts{
+        text-align: left;
+    }
+    .header-contacts a:nth-child(1){
+        font-size: 18px !important;
+    }
+    .header-contacts a:nth-child(2){
+        text-align: end;
+    }
+    .slide-right .slide-img {
+        width: 280px !important;
+        height: auto !important;
+    }
+    .slide-img-bg {
+        width: 280px !important;
+        height: 200px;
+    }
+    .slide-img-bg hr{
+        width: 230px !important;
+    }
+    .slide-left-title{
+        width: 280px !important;
+    }
+    .first-type button, .second-type button{
+        width: 350px !important;
+    }
+    .active nav ul{
+        flex-direction: column;
+    }
+    header{
+        justify-content: space-between;
+        margin: 0;
+        width: 100vw;
+    }
+    header .container{
+        right: 10px;
+        left: 30px;
+        gap: 20px;
+        justify-content: center;
+    }
+    .slide-right .slide-img{
+        margin: 0;
+    }
+    .map-flat img, .map-right{
+        height: 250px !important;
+    }
+    .sun-up img, .sun-down img{
+        width: 250px !important;
+    }
+    .img-home img{
+        width: 250px !important;
+    }
+    .flat-options h2{
+        text-align: left;
+    }
+    .flat-options{
+        width: 100%;
+    }
+    .text-home-text{
+        width: 300px !important;
+    }
+    .options-cards .card .info-card{
+        width: 100px !important;
+    }
+    .header-logo a{
+        font-size: 12px;
+    }
+    h2{
+        font-size: 32px !important;
+    }
+    .container, .info-home{
+        width: 300px !important;
+    }
+    .options-cards{
+        flex-direction: column;
+    }
+    .flat-zones{
+        flex-direction: column;
+        align-items: center;
+    }
+    .type-flat-left, .text-home{
+        width: 300px !important;
+    }
+    .slide-img-bg a{
+        padding: 0 0 0 0 !important;
+    }
+    .slide-img-bg hr{
+        margin-right: 0 !important;
+    }
+}
+@media (max-width: 350px) {
+    .first-type button, .second-type button {
+        width: 290px !important;
+    }
+    header .container{
+        left: 5px !important;
+    }
+}

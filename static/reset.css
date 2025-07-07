@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    transition: all .3ms;
+    list-style: none;
+    text-decoration: none;
+}
